@@ -11,3 +11,8 @@
 | 1022 | [Sum of Root To Leaf Binary Numbers](code/sum_of_root_to_leaf_binary_numbers.cpp) |
 | 1023 | [Camelcase Matching](code/camelcase_matching.cpp)
 | 1024 | [Video Stitching](code/video_stitching.cpp) |
+| 1025 | [Divisor Game](code/divisor-game.cpp) |
+| 1026 | [Maximum Difference Between Node and Ancestor](code/maximum-difference-between-node-and-ancestor.cpp) |
+| 1027 | [Longest Arithmetic Sequence](code/longest-arithmetic-sequence.cpp) |
+| 1028 | [Recover a Tree From Preorder Traversal](code/recover-a-tree-from-preorder-traversal.cpp) |
+
