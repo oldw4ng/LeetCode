@@ -15,4 +15,7 @@
 | 1026 | [Maximum Difference Between Node and Ancestor](code/maximum-difference-between-node-and-ancestor.cpp) |
 | 1027 | [Longest Arithmetic Sequence](code/longest-arithmetic-sequence.cpp) |
 | 1028 | [Recover a Tree From Preorder Traversal](code/recover-a-tree-from-preorder-traversal.cpp) |
-
+| 1029 | [Two City Scheduling](code/two-city-scheduling.cpp) |
+| 1030 | [Matrix Cells in Distance Order](code/matrix-cells-in-distance-order.cpp) |
+| 1031 | [Maximum Sum of Two Non-Overlapping Subarrays](code/maximum-sum-of-two-non-overlapping-subarrays.cpp) |
+| 1032 | [Stream of Characters](code/stream-of-characters.cpp) |
