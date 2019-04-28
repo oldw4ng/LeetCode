@@ -19,3 +19,7 @@
 | 1030 | [Matrix Cells in Distance Order](code/matrix-cells-in-distance-order.cpp) |
 | 1031 | [Maximum Sum of Two Non-Overlapping Subarrays](code/maximum-sum-of-two-non-overlapping-subarrays.cpp) |
 | 1032 | [Stream of Characters](code/stream-of-characters.cpp) |
+| 1033 | [Moving Stones Until Consecutive](code/moving-stones-until-consecutive.cpp) |
+| 1034 | [Coloring A Border](code/coloring-a-border.cpp) |
+| 1035 | [Uncrossed Lines](code/uncrossed-lines.cpp) |
+| 1036 | [Escape a Large Maze](code/escape-a-large-maze.cpp) |
