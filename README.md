@@ -23,3 +23,7 @@
 | 1034 | [Coloring A Border](code/coloring-a-border.cpp) |
 | 1035 | [Uncrossed Lines](code/uncrossed-lines.cpp) |
 | 1036 | [Escape a Large Maze](code/escape-a-large-maze.cpp) |
+| 1131 | [Maximum of Absolute Value Expression](code/1131-maximum-of-absolute-value-expression.cpp) |
+| 1137 | [N-th Tribonacci Number](code/1137-n-th-tribonacci-number.cpp) |
+| 1138 | [Alphabet Board Path](code/1138-alphabet-board-path.cpp) |
+| 1139 | [Largest 1-Bordered Square](code/1139-largest-1-bordered-square.cpp) |
