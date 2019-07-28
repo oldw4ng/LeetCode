@@ -17,7 +17,7 @@ function insert() {
     echo $quary >> $target
 }
 
-> target
+> $target
 echo "# LeetCode
 
 |No.|Title|
