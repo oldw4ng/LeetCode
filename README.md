@@ -4,6 +4,11 @@
 | - | - |
 | 1 | [Two Sum ](code/1-two-sum.cpp) |
 | 2 | [Add Two Numbers ](code/2-add-two-numbers.cpp) |
+| 3 | [Longest Substring Without Repeating Characters ](code/3-longest-substring-without-repeating-characters.cpp) |
+| 62 | [Unique Paths ](code/62-unique-paths.cpp) |
+| 63 | [Unique Paths Ii ](code/63-unique-paths-ii.cpp) |
+| 67 | [Add Binary ](code/67-add-binary.cpp) |
+| 93 | [Restore Ip Addresses ](code/93-restore-ip-addresses.cpp) |
 | 94 | [Binary Tree Inorder Traversal ](code/94-binary-tree-inorder-traversal.cpp) |
 | 144 | [Binary Tree Preorder Traversal ](code/144-binary-tree-preorder-traversal.cpp) |
 | 145 | [Binary Tree Postorder Traversal ](code/145-binary-tree-postorder-traversal.cpp) |
