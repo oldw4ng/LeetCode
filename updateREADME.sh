@@ -4,15 +4,12 @@ target="README.md"
 
 function insert() {
     pathname=$1
-    filename=${pathname%.*}
-    filename=${filename#*/}
-    arr=(${filename//-/ })
-    num=${arr[0]}
-    title=""
-    for ((i=1;i<${#arr[@]};i++)) do
-        temp=${arr[i]^}
-        title="$title$temp "
-    done;
+    num=${pathname%%.*}
+
+    title=`sed -n 4p code/$pathname`
+    title=${title#*]}
+
+
     quary="| $num | [$title](code/$pathname) |"
     echo $quary >> $target
 }
