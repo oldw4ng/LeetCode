@@ -80,11 +80,14 @@
 | 454 | [ 4Sum II](code/454.4-sum-ii.cpp) |
 | 594 | [ Longest Harmonious Subsequence](code/594.longest-harmonious-subsequence.cpp) |
 | 605 | [ Can Place Flowers](code/605.can-place-flowers.cpp) |
+| 621 | [ Task Scheduler](code/621.task-scheduler.cpp) |
 | 692 | [ Top K Frequent Words](code/692.top-k-frequent-words.cpp) |
 | 693 | [ Binary Number with Alternating Bits](code/693.binary-number-with-alternating-bits.cpp) |
 | 703 | [ Kth Largest Element in a Stream](code/703.kth-largest-element-in-a-stream.cpp) |
 | 704 | [ Binary Search](code/704.binary-search.cpp) |
+| 712 | [ Minimum ASCII Delete Sum for Two Strings](code/712.minimum-ascii-delete-sum-for-two-strings.cpp) |
 | 771 | [ Jewels and Stones](code/771.jewels-and-stones.cpp) |
+| 819 | [ Most Common Word](code/819.most-common-word.cpp) |
 | 836 | [ Rectangle Overlap](code/836.rectangle-overlap.cpp) |
 | 905 | [ Sort Array By Parity](code/905.sort-array-by-parity.cpp) |
 | 914 | [ X of a Kind in a Deck of Cards](code/914.x-of-a-kind-in-a-deck-of-cards.cpp) |
