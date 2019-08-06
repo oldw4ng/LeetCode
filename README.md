@@ -65,12 +65,14 @@
 | 191 | [ Number of 1 Bits](code/191.number-of-1-bits.cpp) |
 | 202 | [ Happy Number](code/202.happy-number.cpp) |
 | 204 | [ Count Primes](code/204.count-primes.cpp) |
+| 226 | [ Invert Binary Tree](code/226.invert-binary-tree.cpp) |
 | 230 | [ Kth Smallest Element in a BST](code/230.kth-smallest-element-in-a-bst.cpp) |
 | 242 | [ Valid Anagram](code/242.valid-anagram.cpp) |
 | 263 | [ Ugly Number](code/263.ugly-number.cpp) |
 | 264 | [ Ugly Number II](code/264.ugly-number-ii.cpp) |
 | 268 | [ Missing Number](code/268.missing-number.cpp) |
 | 283 | [ Move Zeroes](code/283.move-zeroes.cpp) |
+| 287 | [ Find the Duplicate Number](code/287.find-the-duplicate-number.cpp) |
 | 292 | [ Nim Game](code/292.nim-game.cpp) |
 | 326 | [ Power of Three](code/326.power-of-three.cpp) |
 | 344 | [ Reverse String](code/344.reverse-string.cpp) |
@@ -89,6 +91,7 @@
 | 771 | [ Jewels and Stones](code/771.jewels-and-stones.cpp) |
 | 819 | [ Most Common Word](code/819.most-common-word.cpp) |
 | 836 | [ Rectangle Overlap](code/836.rectangle-overlap.cpp) |
+| 844 | [ Backspace String Compare](code/844.backspace-string-compare.cpp) |
 | 905 | [ Sort Array By Parity](code/905.sort-array-by-parity.cpp) |
 | 914 | [ X of a Kind in a Deck of Cards](code/914.x-of-a-kind-in-a-deck-of-cards.cpp) |
 | 917 | [ Reverse Only Letters](code/917.reverse-only-letters.cpp) |
