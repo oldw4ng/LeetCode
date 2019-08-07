@@ -22,6 +22,7 @@
 | 20 | [ Valid Parentheses](code/20.valid-parentheses.cpp) |
 | 21 | [ Merge Two Sorted Lists](code/21.merge-two-sorted-lists.cpp) |
 | 22 | [ Generate Parentheses](code/22.generate-parentheses.cpp) |
+| 23 | [ Merge k Sorted Lists](code/23.merge-k-sorted-lists.cpp) |
 | 24 | [ Swap Nodes in Pairs](code/24.swap-nodes-in-pairs.cpp) |
 | 26 | [ Remove Duplicates from Sorted Array](code/26.remove-duplicates-from-sorted-array.cpp) |
 | 27 | [ Remove Element](code/27.remove-element.cpp) |
@@ -65,6 +66,7 @@
 | 191 | [ Number of 1 Bits](code/191.number-of-1-bits.cpp) |
 | 202 | [ Happy Number](code/202.happy-number.cpp) |
 | 204 | [ Count Primes](code/204.count-primes.cpp) |
+| 222 | [ Count Complete Tree Nodes](code/222.count-complete-tree-nodes.cpp) |
 | 226 | [ Invert Binary Tree](code/226.invert-binary-tree.cpp) |
 | 230 | [ Kth Smallest Element in a BST](code/230.kth-smallest-element-in-a-bst.cpp) |
 | 242 | [ Valid Anagram](code/242.valid-anagram.cpp) |
@@ -80,6 +82,7 @@
 | 387 | [ First Unique Character in a String](code/387.first-unique-character-in-a-string.cpp) |
 | 412 | [ Fizz Buzz](code/412.fizz-buzz.cpp) |
 | 454 | [ 4Sum II](code/454.4-sum-ii.cpp) |
+| 513 | [ Find Bottom Left Tree Value](code/513.find-bottom-left-tree-value.cpp) |
 | 594 | [ Longest Harmonious Subsequence](code/594.longest-harmonious-subsequence.cpp) |
 | 605 | [ Can Place Flowers](code/605.can-place-flowers.cpp) |
 | 621 | [ Task Scheduler](code/621.task-scheduler.cpp) |
