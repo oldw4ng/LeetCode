@@ -41,6 +41,7 @@
 | 67 | [ Add Binary](code/67.add-binary.cpp) |
 | 69 | [ Sqrt(x)](code/69.sqrt-x.cpp) |
 | 70 | [ Climbing Stairs](code/70.climbing-stairs.cpp) |
+| 76 | [ Minimum Window Substring](code/76.minimum-window-substring.cpp) |
 | 88 | [ Merge Sorted Array](code/88.merge-sorted-array.cpp) |
 | 91 | [ Decode Ways](code/91.decode-ways.cpp) |
 | 93 | [ Restore IP Addresses](code/93.restore-ip-addresses.cpp) |
@@ -101,6 +102,7 @@
 | 918 | [ Maximum Sum Circular Subarray](code/918.maximum-sum-circular-subarray.cpp) |
 | 920 | [ Number of Music Playlists](code/920.number-of-music-playlists.cpp) |
 | 925 | [ Long Pressed Name](code/925.long-pressed-name.cpp) |
+| 989 | [ Add to Array-Form of Integer](code/989.add-to-array-form-of-integer.cpp) |
 | 1009 | [ Complement of Base 10 Integer](code/1009.complement-of-base-10-integer.cpp) |
 | 1010 | [ Pairs of Songs With Total Durations Divisible by 60](code/1010.pairs-of-songs-with-total-durations-divisible-by-60.cpp) |
 | 1011 | [ Capacity To Ship Packages Within D Days](code/1011.capacity-to-ship-packages-within-d-days.cpp) |
