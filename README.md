@@ -56,6 +56,7 @@
 | 143 | [ Reorder List](code/143.reorder-list.cpp) |
 | 144 | [ Binary Tree Preorder Traversal](code/144.binary-tree-preorder-traversal.cpp) |
 | 145 | [ Binary Tree Postorder Traversal](code/145.binary-tree-postorder-traversal.cpp) |
+| 146 | [ LRU Cache](code/146.lru-cache.cpp) |
 | 151 | [ Reverse Words in a String](code/151.reverse-words-in-a-string.cpp) |
 | 168 | [ Excel Sheet Column Title](code/168.excel-sheet-column-title.cpp) |
 | 169 | [ Majority Element](code/169.majority-element.cpp) |
@@ -96,7 +97,9 @@
 | 819 | [ Most Common Word](code/819.most-common-word.cpp) |
 | 836 | [ Rectangle Overlap](code/836.rectangle-overlap.cpp) |
 | 844 | [ Backspace String Compare](code/844.backspace-string-compare.cpp) |
+| 876 | [ Middle of the Linked List](code/876.middle-of-the-linked-list.cpp) |
 | 905 | [ Sort Array By Parity](code/905.sort-array-by-parity.cpp) |
+| 912 | [ Sort an Array](code/912.sort-an-array.cpp) |
 | 914 | [ X of a Kind in a Deck of Cards](code/914.x-of-a-kind-in-a-deck-of-cards.cpp) |
 | 917 | [ Reverse Only Letters](code/917.reverse-only-letters.cpp) |
 | 918 | [ Maximum Sum Circular Subarray](code/918.maximum-sum-circular-subarray.cpp) |
