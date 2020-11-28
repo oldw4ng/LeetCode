@@ -47,17 +47,23 @@
  */
 class Solution {
 public:
-    void _countNodes(TreeNode* root, int &ret) {
-        if (!root) return;
-        ret++;
-        _countNodes(root -> left, ret);
-        _countNodes(root -> right, ret);
-    }
-    
     int countNodes(TreeNode* root) {
-        int ret = 0;
-        _countNodes(root, ret);
-        return ret;
+        if (!root)
+            return 0;
+        auto ld = getDepth(root -> left), rd = getDepth(root -> right);
+        if (ld != rd) {
+            return (1 << rd) + countNodes(root -> left);
+        } else
+            return (1 << ld) + countNodes(root -> right); 
+    }
+
+    int getDepth(TreeNode* root) {
+        int depth = 0;
+        while (root) {
+            depth++;
+            root = root -> left;
+        }
+        return depth;
     }
 };
 
