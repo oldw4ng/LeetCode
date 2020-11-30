@@ -30,7 +30,7 @@
  * Example:
  * 
  * 
- * LRUCache cache = new LRUCache( 2 /* capacity */ );
+ * LRUCache cache = new LRUCache( 2 );
  * 
  * cache.put(1, 1);
  * cache.put(2, 2);
@@ -46,18 +46,69 @@
  * 
  * 
  */
+struct Node {
+    int key;
+    int val;
+    Node* pre;
+    Node* next;
+    Node():key(0), val(0), pre(this), next(this){}
+    Node(int k, int v):key(k), val(v), pre(nullptr), next(nullptr){}
+};
+
+
 class LRUCache {
 public:
+    int capacity;
+    unordered_map<int, Node*> cache;
+    Node* head;
+
     LRUCache(int capacity) {
-        
+        this -> capacity = capacity;
+        head = new Node();
     }
-    
+
+    void headInsert(Node* node) {
+        node -> next = head -> next;
+        node -> pre = head;
+        node -> next -> pre = node;
+        head -> next = node;
+    }
+
+    void removeNode(Node* node) {
+        node -> pre -> next = node -> next;
+        node -> next -> pre = node -> pre;
+    }
+
     int get(int key) {
-        
+        if (cache.count(key)) {
+            auto node = cache[key];
+            if (node -> pre != head) {
+                removeNode(node);
+                headInsert(node);
+            }
+            return node -> val;
+        } else
+            return -1;
     }
-    
+
     void put(int key, int value) {
-        
+        if (cache.count(key)) {
+            auto node = cache[key];
+            node->val = value;
+            if (node->pre != head) {
+                removeNode(node);
+                headInsert(node);
+            }
+            return;
+        }
+        if (cache.size() == capacity) {
+            auto k = head -> pre -> key;
+            removeNode(head -> pre);
+            cache.erase(k);
+        }
+        auto node = new Node(key, value);
+        cache[key] = node;
+        headInsert(node);
     }
 };
 
