@@ -65,12 +65,9 @@ public:
     vector<bool> prefixesDivBy5(vector<int>& A) {
         int cur = 0;
         vector<bool> ret;
-        for (int i = 0; i < A.size(); ++i) {
-            cur = ((cur << 1) + A[i]) % 5;
-            if (!cur) {
-                ret.push_back(true);
-            } else
-                ret.push_back(false);
+        for (auto n: A) {
+            cur = (cur * 2 + n) % 5;
+            ret.push_back(!cur);
         }
         return ret;
     }
