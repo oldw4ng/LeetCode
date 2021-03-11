@@ -41,67 +41,39 @@
  */
 class Solution {
 public:
+    double getKthNum(vector<int>& nums1, vector<int>& nums2, int k) {
+        int l1 = 0, l2 = 0;
+        int size1 = nums1.size(), size2 = nums2.size();
+        double ret = 0;
+        while (1) {
+            if (l1 == size1) {
+                return nums2[l2 + k - 1];
+            }
+            if (l2 == size2) {
+                return nums1[l1 + k - 1];
+            }
+            if (k == 1) {
+                return min(nums1[l1], nums2[l2]);
+            }
+            int half = k / 2;
+            int newl1 = min(l1 + half, size1) - 1;
+            int newl2 = min(l2 + half, size2) - 1;
+            if (nums1[newl1] <= nums2[newl2]) {
+                k -= (newl1 - l1 + 1);
+                l1 = newl1 + 1;
+            } else {
+                k -= (newl2 - l2 + 1);
+                l2 = newl2 + 1;
+            }
+        }
+    }
+
     double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
-        double result = 0;
-        int size1 = (int)nums1.size();
-        int size2 = (int)nums2.size();
-        int hasMid = !((size1 + size2) % 2) + 1;
-        bool status = (hasMid == 2);
-        int mid = (size1 + size2) / 2 - hasMid / 2;
-        cout << mid <<endl;
-        
-        int i = 0, j = 0, k = 0;
-        for (; i < size1 && j < size2; ) {
-            if (k == mid) {
-                if (*(nums1.begin() + i) < *(nums2.begin() + j)) {
-                    result += *(nums1.begin() + i);
-                }else {
-                    result += *(nums2.begin() + j);
-                }
-                if (status) {
-                    mid++;
-//                    ++k;
-                    status = !status;
-                    continue;
-                }
-                return result / hasMid;
-            }
-            if (*(nums1.begin() + i) < *(nums2.begin() + j)) {
-                ++i;
-            }else {
-                ++j;
-            }
-            ++k;
+        int k = (nums1.size() + nums2.size() + 1) / 2;
+        if ((nums1.size() + nums2.size()) % 2) {
+            return getKthNum(nums1, nums2, k);
+        } else {
+            return (getKthNum(nums1, nums2, k) + getKthNum(nums1, nums2, k + 1)) / 2.0;
         }
-        for (; i < size1; ) {
-            if (k == mid) {
-                result += *(nums1.begin() + i);
-                if (status) {
-                    mid++;
-                    //++k;
-                    status = !status;
-                    continue;
-                }
-                return result / hasMid;
-            }
-            ++i;
-            ++k;
-        }
-        for (; j < size2; ) {
-            if (k == mid) {
-                result += *(nums2.begin() + j);
-                if (status) {
-                    mid++;
-                    //++k;
-                    status = !status;
-                    continue;
-                }
-                return result / hasMid;
-            }
-            ++j;
-            ++k;
-        }
-        return result / hasMid;
     }
 };
-
